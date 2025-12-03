@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Farmagro-AIC-2025-Pedro Carbo</title>
+  <link rel="shortcut icon" href="img/favicon-1.png" type="image/png">
+  <link rel="stylesheet" href="css/semillas_styles.css" />
+</head>
+<body>
+  <div class="canvas" style="display: flex; flex-wrap: wrap; gap: 0;">
+    <main class="panel">
+      <div class="panel-link" data-href="contraportada.html">
+        <img src="img/Menu_1.png" alt="Sección arriba" height="720">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link" data-href="9139.html">
+        <img src="img/Menu_2.png" alt="Sección boton agricola" height="460">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link" data-href="9789.html">
+        <img src="img/Menu_3.png" alt="Sección boton maquinaria" height="460">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link">
+        <img src="img/Menu_4.png" alt="Sección pie" height="280">
+      </div>
+    </main>
+  </div>
+
+  <script>
+    document.querySelectorAll('.panel-link[data-href]').forEach(link => {
+      link.addEventListener('click', function() {
+        const href = this.getAttribute('data-href');
+        if (href) {
+          window.location.href = href;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+

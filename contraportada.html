@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Farmagro-AIC-2025-Pedro Carbo</title>
+    <link rel="shortcut icon" href="img/favicon-1.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/contraportada_styles.css">
+</head>
+<body>
+  <!-- ...existing content... -->
+  <div class="canvas" style="display: flex; flex-wrap: wrap; gap: 0;">
+    <main class="panel">
+      <div class="panel-link" data-href="index.html">
+        <img src="img/catalogo__1.png" alt="Sección arriba" height="830">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link" data-href="AIC.html">
+        <img src="img/catalogo__2.png" alt="Sección boton agricola" height="410">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link" data-href="AIC.html">
+        <img src="img/catalogo__3.png" alt="Sección boton maquinaria" height="410">
+      </div>
+    </main>
+    <main class="panel">
+      <div class="panel-link" data-href="semillas.html">
+        <img src="img/catalogo__4.png" alt="Sección pie" height="270">
+      </div>
+    </main>
+  </div>
+
+  <!-- Modal PDF para Agrocatalogo -->
+  <div class="modal-overlay" id="pdfModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closePdfBtn">&times;</button>
+      <embed src="img/agrocatalogo.pdf" type="application/pdf" class="pdf-viewer">
+    </div>
+  </div>
+
+  <!-- Modal PDF para Maquicatalogo -->
+  <div class="modal-overlay" id="pdfModal2">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="closePdfBtn2">&times;</button>
+      <embed src="img/maquicatalogo.pdf" type="application/pdf" class="pdf-viewer">
+    </div>
+  </div>
+
+  <script src="js/contraportada.js"></script>
+  <!-- ...existing content... -->
+</body>
+</html>
+

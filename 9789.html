@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmagro-AIC-2025-Pedro Carbo</title>
+    <link rel="shortcut icon" href="img/favicon-1.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="semillas.html">
+            <img src="img/9789_1.png" alt="Imagen Cabecera Semillas">
+        </a>
+    </header>
+
+    <main>
+        <section class="content-row">
+            <div class="left-block">
+                <img src="img/9789_2.png" alt="Nombre de la Mazorca" id="open-video-modal-btn">
+            </div>
+        </section>
+        <section class="content-row">
+            <div class="left-block">
+                <img src="img/9789_3.png" alt="Imagne de saco de la Mazorca">
+            </div>
+        </section>
+        <section class="content-row">
+            <div class="left-block">
+                <img src="img/9789_4.png" alt="Rendimiento de la Mazorca">
+            </div>
+        </section>
+        <section class="content-row">
+            <div class="left-block">
+                <img src="img/9789_5.png" alt="Testimoniales de la Mazorca" id="open-modal-btn">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/9789_6.png" alt="Imagen del Proveedor" title="Logo de Proveedor">
+    </footer>
+
+    <div id="modal-container" class="modal-container">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="img/9789_testimoniales_1.png" alt="Modal Body Image">
+            </div>
+        </div>
+        <button id="external-close-btn" class="external-close-btn">x</button>
+    </div>
+
+    <div id="video-modal-container" class="modal-container">
+        <div class="video-modal-content">
+            <button id="close-video-modal-btn" class="close-modal-btn">&times;</button>
+            <div class="video-player-container">
+                <img src="img/9789_iconovideo.png" id="video-placeholder-img" alt="Click para reproducir el video">
+                <video id="modal-video" src="img/video9789.mp4" style="display: none;" playsinline></video>
+                <div id="video-controls" class="video-controls" style="display: none;">
+                    <button id="play-btn">▶</button>
+                    <button id="pause-btn">❚❚</button>
+                    <button id="fullscreen-btn">⛶</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
